@@ -1,0 +1,70 @@
+# Private files
+**private**
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.fls
+*.log
+*.fdb_latexmk
+*.snm
+*.nav
+*.synctex.gz
+*.synctex(busy)
+
+# latexindent backup files
+*.bak*
+indent.log
+
+# LaTeX build output - ignore PDFs except in resources/
+*.pdf
+!resources/**/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+.envrc.local
+
+# Private keys and certificates
+*.pem
+*.key
+id_rsa*
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# Credentials
+**/credentials.json
+**/secrets.json
+**/.envrc
+
+# Assembly build artifacts
+*.o
+*.obj
+*.exe
+
+# Logisim backup files
+*.circ~
+*.circ.bak
+
+# Editor files
+*.swp
+*.swo
+*~
